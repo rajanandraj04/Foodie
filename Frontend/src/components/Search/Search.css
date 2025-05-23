@@ -1,0 +1,22 @@
+.search-icon{
+    width: 3rem;
+    transform: translateX(-45px);
+    cursor: pointer;
+}
+.search-container input{
+    padding: 8px;
+    width: 60%;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* border: none; */
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+.search-restaurant{
+    display: flex;
+    justify-content: center;
+}

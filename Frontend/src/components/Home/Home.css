@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(248, 248, 248);
+}
+.home-div{
+    background-color: white;
+}
+.home-first-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 50px 0;
+    background-color: white;
+    /* width: 80%; */
+    height: 60vh;
+  }
+   
+  .home-first-container .home-outer-text-section {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .home-first-container .home-inner-text-section {
+    width: 60%;
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+   
+  .home-first-container .home-inner-text-section .home-title {
+    height: 60px;
+    margin: 10px 0 0 20px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 32px;
+    font-family: "Times New Roman", Times, serif;
+  }
+   
+  .home-first-container .home-inner-text-section .home-sub-title {
+    margin: 10px 0 0 20px;
+    height: 60px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .home-first-container .home-inner-text-section .home-paragraph {
+    margin: 10px 0 0 20px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+  }
+   
+  .home-first-container .home-inner-text-section .home-login-button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 15px 0 0 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+   
+  .home-first-container .home-inner-text-section .home-login-button a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .home-first-container .home-inner-text-section .home-login-button:hover {
+    background-color: orange;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+  }
+   
+  .home-image-section {
+    position: relative;
+    width: 50%;
+    margin-right: 100px;
+    overflow: hidden;
+  }
+   
+  .home-first-container .home-image-section .home-first-img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+   
+  .home-second-title {
+    padding: 20px 0 20px 0;
+    height: 60px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+  }
+   
+  .home-outer-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px 0;
+  }
+   
+  .home-outer-slider .home-inner-slider {
+    display: flex;
+    overflow: auto;
+    width: 80%;
+    scroll-behavior: smooth;
+  }
+   
+  .home-outer-slider .home-inner-slider .home-food-card {
+    transition: 0.3s;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 50px auto;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+   
+  .home-outer-slider .home-inner-slider .home-food-card:hover {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+   
+  .home-outer-slider .home-inner-slider .home-food-card .home-food-card-image {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+   
+  .home-outer-slider .home-inner-slider .home-food-card .home-food-card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    font-family: "Times New Roman", Times, serif;
+  }
+   

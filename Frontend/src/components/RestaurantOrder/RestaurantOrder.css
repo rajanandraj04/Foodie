@@ -1,0 +1,17 @@
+.order-container button{
+    background-color: orange;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+  }
+  
+  .order-container button:hover {
+    transform: scale(1.1); 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .delivered-butn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
